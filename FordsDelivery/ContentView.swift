@@ -34,14 +34,18 @@ struct ContentView: View {
             List {
                 ForEach(vm.orders) {
                     order in
-                    VStack {
+                    VStack(alignment: .leading) {
                         HStack {
+                            Image(systemName: "\(order.quantity ?? 1).circle")
+                                .foregroundStyle(Color.secondary)
                             Text(order.itemName)
                                 .font(.title)
-                            Text("\(order.quantity ?? 1)")
-                                .foregroundStyle(Color.secondary)
+                            
                         }
-                        Text("\(order.created)")
+                        Text("\(order.created.formatted())")
+                            .foregroundStyle(.secondary)
+                            .italic()
+                            .font(.caption)
                     }
                 }
             }
