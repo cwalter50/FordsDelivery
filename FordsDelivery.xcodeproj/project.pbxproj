@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		389F5AF02C062C15004C606C /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389F5AEF2C062C15004C606C /* OrderModel.swift */; };
+		389F5AF22C062F43004C606C /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389F5AF12C062F43004C606C /* OrderViewModel.swift */; };
 		38F320DE2BFFA8CD004AFA12 /* FordsDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F320DD2BFFA8CD004AFA12 /* FordsDeliveryApp.swift */; };
 		38F320E02BFFA8CD004AFA12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F320DF2BFFA8CD004AFA12 /* ContentView.swift */; };
 		38F320E22BFFA8CE004AFA12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F320E12BFFA8CE004AFA12 /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		389F5AEF2C062C15004C606C /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		389F5AF12C062F43004C606C /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
 		38F320DA2BFFA8CD004AFA12 /* FordsDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FordsDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F320DD2BFFA8CD004AFA12 /* FordsDeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FordsDeliveryApp.swift; sourceTree = "<group>"; };
 		38F320DF2BFFA8CD004AFA12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 				38F320EB2BFFA8E0004AFA12 /* GoogleService-Info.plist */,
 				38F320E12BFFA8CE004AFA12 /* Assets.xcassets */,
 				38F320E32BFFA8CE004AFA12 /* Preview Content */,
+				389F5AEF2C062C15004C606C /* OrderModel.swift */,
+				389F5AF12C062F43004C606C /* OrderViewModel.swift */,
 			);
 			path = FordsDelivery;
 			sourceTree = "<group>";
@@ -228,7 +234,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				38F320E02BFFA8CD004AFA12 /* ContentView.swift in Sources */,
+				389F5AF02C062C15004C606C /* OrderModel.swift in Sources */,
 				38F320DE2BFFA8CD004AFA12 /* FordsDeliveryApp.swift in Sources */,
+				389F5AF22C062F43004C606C /* OrderViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
